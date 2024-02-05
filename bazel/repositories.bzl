@@ -821,9 +821,7 @@ def _com_google_protobuf():
         )
 
     external_http_archive(
-        "com_google_protobuf",
-        patches = ["@envoy//bazel:protobuf.patch"],
-        patch_args = ["-p1"],
+        "com_google_protobuf"
     )
 
     native.bind(
