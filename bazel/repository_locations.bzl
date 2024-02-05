@@ -852,7 +852,7 @@ REPOSITORY_LOCATIONS_SPEC = dict(
         # test/common/json/json_sanitizer_test_util.cc.
         sha256 = "8ff511a64fc46ee792d3fe49a5a1bcad6f7dc50dfbba5a28b0e5b979c17f9871",
         strip_prefix = "protobuf-{version}",
-        urls = ["https://github.com/protocolbuffers/protobuf/releases/download/v{version}/protobuf-all-{version}.tar.gz"],
+        urls = ["https://github.com/protocolbuffers/protobuf/releases/download/v{version}/protobuf-{version}.tar.gz"],
         use_category = ["dataplane_core", "controlplane"],
         release_date = "2024-01-10",
         cpe = "cpe:2.3:a:google:protobuf:*",
